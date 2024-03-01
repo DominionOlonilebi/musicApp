@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.music_container h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 30px;
+}
+.music_container h3 span{
+    color: rgb(218, 89, 3);
+}
+.music_container span {
+    color: rgb(190, 115, 1);
+}
+.music_container .music_card{
+    border-radius: 20px;
+    margin-top: 30%;
+    padding-bottom: 30px;
+    color: #fff;
+    background-color: black;
+}
+.music_container .music_cards{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.music_container .music_icon{
+    
+}
+.music_container .music_card .music_btn{
+    background-color: rgb(190, 115, 1);
+    border-color: rgb(190, 115, 1);
 }
