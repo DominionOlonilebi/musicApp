@@ -24,10 +24,23 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.music_container .music_icon{
-    
-}
+
 .music_container .music_card .music_btn{
     background-color: rgb(190, 115, 1);
     border-color: rgb(190, 115, 1);
 }
+
+@keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .rotating-icon {
+    animation: rotate infinite 3s linear;
+  }
+  
+  

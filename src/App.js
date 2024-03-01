@@ -37,7 +37,7 @@ function App() {
                   <FontAwesomeIcon
                     icon={faCompactDisc}
                     style={{ fontSize: "6em" }}
-                    className="music_icon"
+                    className="rotating-icon"
                   />
                   <FontAwesomeIcon
                     icon={faMusic}
